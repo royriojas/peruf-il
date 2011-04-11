@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C4E58813428C2A0073298F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4E58713428C2A0073298F /* UIKit.framework */; };
+		F0C4E58A13428C2A0073298F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4E58913428C2A0073298F /* Foundation.framework */; };
+		F0C4E58C13428C2A0073298F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4E58B13428C2A0073298F /* CoreGraphics.framework */; };
+		F0C4E59213428C2A0073298F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C4E59013428C2A0073298F /* InfoPlist.strings */; };
+		F0C4E59513428C2A0073298F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4E59413428C2A0073298F /* main.m */; };
+		F0C4E59813428C2A0073298F /* _RoyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4E59713428C2A0073298F /* _RoyAppDelegate.m */; };
+		F0C4E59B13428C2A0073298F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C4E59913428C2A0073298F /* MainWindow.xib */; };
+		F0C4E59E13428C2A0073298F /* _RoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4E59D13428C2A0073298F /* _RoyViewController.m */; };
+		F0C4E5A113428C2A0073298F /* _RoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C4E59F13428C2A0073298F /* _RoyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0C4E58313428C2A0073298F /* 4Roy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4Roy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C4E58713428C2A0073298F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0C4E58913428C2A0073298F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C4E58B13428C2A0073298F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0C4E58F13428C2A0073298F /* 4Roy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "4Roy-Info.plist"; sourceTree = "<group>"; };
+		F0C4E59113428C2A0073298F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C4E59313428C2A0073298F /* 4Roy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4Roy-Prefix.pch"; sourceTree = "<group>"; };
+		F0C4E59413428C2A0073298F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0C4E59613428C2A0073298F /* _RoyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _RoyAppDelegate.h; sourceTree = "<group>"; };
+		F0C4E59713428C2A0073298F /* _RoyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _RoyAppDelegate.m; sourceTree = "<group>"; };
+		F0C4E59A13428C2A0073298F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F0C4E59C13428C2A0073298F /* _RoyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _RoyViewController.h; sourceTree = "<group>"; };
+		F0C4E59D13428C2A0073298F /* _RoyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _RoyViewController.m; sourceTree = "<group>"; };
+		F0C4E5A013428C2A0073298F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/_RoyViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C4E58013428C2A0073298F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4E58813428C2A0073298F /* UIKit.framework in Frameworks */,
+				F0C4E58A13428C2A0073298F /* Foundation.framework in Frameworks */,
+				F0C4E58C13428C2A0073298F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C4E57813428C2A0073298F = {
+			isa = PBXGroup;
+			children = (
+				F0C4E58D13428C2A0073298F /* 4Roy */,
+				F0C4E58613428C2A0073298F /* Frameworks */,
+				F0C4E58413428C2A0073298F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C4E58413428C2A0073298F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4E58313428C2A0073298F /* 4Roy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C4E58613428C2A0073298F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4E58713428C2A0073298F /* UIKit.framework */,
+				F0C4E58913428C2A0073298F /* Foundation.framework */,
+				F0C4E58B13428C2A0073298F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C4E58D13428C2A0073298F /* 4Roy */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4E59613428C2A0073298F /* _RoyAppDelegate.h */,
+				F0C4E59713428C2A0073298F /* _RoyAppDelegate.m */,
+				F0C4E59913428C2A0073298F /* MainWindow.xib */,
+				F0C4E59C13428C2A0073298F /* _RoyViewController.h */,
+				F0C4E59D13428C2A0073298F /* _RoyViewController.m */,
+				F0C4E59F13428C2A0073298F /* _RoyViewController.xib */,
+				F0C4E58E13428C2A0073298F /* Supporting Files */,
+			);
+			path = 4Roy;
+			sourceTree = "<group>";
+		};
+		F0C4E58E13428C2A0073298F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4E58F13428C2A0073298F /* 4Roy-Info.plist */,
+				F0C4E59013428C2A0073298F /* InfoPlist.strings */,
+				F0C4E59313428C2A0073298F /* 4Roy-Prefix.pch */,
+				F0C4E59413428C2A0073298F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C4E58213428C2A0073298F /* 4Roy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C4E5A413428C2A0073298F /* Build configuration list for PBXNativeTarget "4Roy" */;
+			buildPhases = (
+				F0C4E57F13428C2A0073298F /* Sources */,
+				F0C4E58013428C2A0073298F /* Frameworks */,
+				F0C4E58113428C2A0073298F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 4Roy;
+			productName = 4Roy;
+			productReference = F0C4E58313428C2A0073298F /* 4Roy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C4E57A13428C2A0073298F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = CodeSignum;
+			};
+			buildConfigurationList = F0C4E57D13428C2A0073298F /* Build configuration list for PBXProject "4Roy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C4E57813428C2A0073298F;
+			productRefGroup = F0C4E58413428C2A0073298F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C4E58213428C2A0073298F /* 4Roy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C4E58113428C2A0073298F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4E59213428C2A0073298F /* InfoPlist.strings in Resources */,
+				F0C4E59B13428C2A0073298F /* MainWindow.xib in Resources */,
+				F0C4E5A113428C2A0073298F /* _RoyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C4E57F13428C2A0073298F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4E59513428C2A0073298F /* main.m in Sources */,
+				F0C4E59813428C2A0073298F /* _RoyAppDelegate.m in Sources */,
+				F0C4E59E13428C2A0073298F /* _RoyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0C4E59013428C2A0073298F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4E59113428C2A0073298F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0C4E59913428C2A0073298F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4E59A13428C2A0073298F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F0C4E59F13428C2A0073298F /* _RoyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4E5A013428C2A0073298F /* en */,
+			);
+			name = _RoyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C4E5A213428C2A0073298F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0C4E5A313428C2A0073298F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F0C4E5A513428C2A0073298F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "4Roy/4Roy-Prefix.pch";
+				INFOPLIST_FILE = "4Roy/4Roy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0C4E5A613428C2A0073298F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "4Roy/4Roy-Prefix.pch";
+				INFOPLIST_FILE = "4Roy/4Roy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C4E57D13428C2A0073298F /* Build configuration list for PBXProject "4Roy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4E5A213428C2A0073298F /* Debug */,
+				F0C4E5A313428C2A0073298F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C4E5A413428C2A0073298F /* Build configuration list for PBXNativeTarget "4Roy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4E5A513428C2A0073298F /* Debug */,
+				F0C4E5A613428C2A0073298F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C4E57A13428C2A0073298F /* Project object */;
+}
